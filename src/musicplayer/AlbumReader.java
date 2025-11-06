@@ -59,7 +59,8 @@ public class AlbumReader {
 				
 				album.addSong(new Song(trackNum, title, artist, length));
 				
-				line = reader.readLine();
+				// This line is an error! makes the program skip every second song!
+				// line = reader.readLine();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
