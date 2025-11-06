@@ -10,6 +10,7 @@ import java.nio.file.Path;
 
 public class Album implements Serializable {
 	// has list of songs, its name, artist, release year, and total duration
+	// https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it
 	private static final long serialVersionUID = 2L;
 	private ArrayList<Song> songList;
 	private String name;
